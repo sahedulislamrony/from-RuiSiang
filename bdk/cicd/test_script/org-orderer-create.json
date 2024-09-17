@@ -1,0 +1,25 @@
+[
+  {
+    "name": "OrgNewOrderer",
+    "domain": "orgneworderer.bdk.example.com",
+    "enableNodeOUs": true,
+    "hostname": [
+      "orderer0",
+      "orderer1"
+    ],
+    "ports": [
+      {
+        "port": 7350,
+        "isPublishPort": true,
+        "operationPort": 8743,
+        "isPublishOperationPort": true
+      },
+      {
+        "port": 7450,
+        "isPublishPort": true,
+        "operationPort": 8843,
+        "isPublishOperationPort": true
+      }
+    ]
+  }
+]

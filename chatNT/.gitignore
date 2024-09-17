@@ -1,0 +1,11 @@
+releases/
+*.o
+*.obj
+*.out
+*.app
+*-example.cpp
+*.log
+*/bin/*
+!*/bin/*.dll
+!*/bin/*.sh
+!*/bin/.gitkeep
